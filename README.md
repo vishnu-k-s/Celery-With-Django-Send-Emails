@@ -1,6 +1,6 @@
 
 
-                         CELERY WITH DJANGO TO SEND EMAIL
+                         CELERY WITH DJANGO TO SEND EMAILS
 
 
 OVERVIEW
@@ -10,10 +10,13 @@ OVERVIEW
 SETUP
 
         * Install django, celery,  redis
+        
         * Add configrations to 
                     settings.py -> celery settings, email settings 
+                    
         * Create files 
                     celery.py, __init__.py, tasks.py
+                    
         * To celery to work
                     call task function in views.py 
 
